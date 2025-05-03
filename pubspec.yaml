@@ -1,0 +1,37 @@
+name: space_explorer
+description: A space exploration app
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: SpaceFont
+      fonts:
+        - asset: assets/fonts/orbitron.ttf
+          weight: 400
+        - asset: assets/fonts/orbitron_bold.ttf
+          weight: 700
+        - asset: assets/fonts/orbitron_italic.ttf
+          style: italic
+        - asset: assets/fonts/orbitron_bold_italic.ttf
+          weight: 700
+          style: italic
